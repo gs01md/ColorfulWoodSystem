@@ -6,9 +6,6 @@
 示例：
 #import <ColorfulWoodSystem.h>
 
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
 
@@ -24,4 +21,5 @@
           info.m_iphoneName,
           info.m_appVersion);
 }
+
 @end
