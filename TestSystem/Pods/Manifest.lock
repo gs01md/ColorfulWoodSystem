@@ -1,0 +1,16 @@
+PODS:
+  - ColorfulWoodSystem (0.0.0.4)
+
+DEPENDENCIES:
+  - ColorfulWoodSystem
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ColorfulWoodSystem
+
+SPEC CHECKSUMS:
+  ColorfulWoodSystem: 76aea826d06ce213a19e95ea747868449aa915c5
+
+PODFILE CHECKSUM: c6cfac23e02e234add6a3568ca80468faa4bd912
+
+COCOAPODS: 1.5.2

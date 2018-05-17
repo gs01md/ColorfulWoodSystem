@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41A8D647FF310822DC06CD8BD2BA4384 /* CWSystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E7906D82913B6959830404D4E3E2A0A /* CWSystemInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4DFDF59A44633FBF830A0F3856D657B1 /* ColorfulWoodSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = FFBF6DEEE046F7540D3F25F8A342E1E5 /* ColorfulWoodSystem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		57514A850FA215101D1ECF3B4809A294 /* CWSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FE6D1534EAC0A3D7A23195F06D989 /* CWSystem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		633824E78E972D4E1C3E78EAA8615C70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6531EF6F09B9C1CA7F408042755F3E68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		71BD50F9E2D2E1BB1C50D07FD320B30A /* CWSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD86ED9A858289B17DF97F8428ADA09 /* CWSystem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7785C3B9B1CB546EE582018F7C6E4530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		7AED99A3B61C2A446351FB8436B9D64A /* Pods-TestSystem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CA446B4012829D42CEA839F006F97 /* Pods-TestSystem-dummy.m */; };
+		C8CBA28851DD878FCE9D74C31FD8C2C2 /* ColorfulWoodSystem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 064261936BE2C437A032D20F4BF1FF68 /* ColorfulWoodSystem-dummy.m */; };
+		F160841FE3AA2A16EC401733EB003E8A /* CWSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD16BFB1B31F05614725F71751AA40C /* CWSystemInfo.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6E16343A825A8625E35A82947D3D2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14D134B061F9C409BCBE7585621F2E3B;
+			remoteInfo = ColorfulWoodSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064261936BE2C437A032D20F4BF1FF68 /* ColorfulWoodSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorfulWoodSystem-dummy.m"; sourceTree = "<group>"; };
+		121EB04AF100984332B3BF152D1D3280 /* Pods-TestSystem-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestSystem-frameworks.sh"; sourceTree = "<group>"; };
+		197633F2C71D62394F7F0DA26AD8E786 /* libColorfulWoodSystem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libColorfulWoodSystem.a; path = libColorfulWoodSystem.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD16BFB1B31F05614725F71751AA40C /* CWSystemInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWSystemInfo.m; path = ColorfulWoodSystem/ColorfulWoodSystem/CocoapodFiles/CWSystemInfo.m; sourceTree = "<group>"; };
+		2DD86ED9A858289B17DF97F8428ADA09 /* CWSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWSystem.h; path = ColorfulWoodSystem/ColorfulWoodSystem/CocoapodFiles/CWSystem.h; sourceTree = "<group>"; };
+		5C0D60FA4362449A09B4EE0B16B8D11B /* ColorfulWoodSystem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorfulWoodSystem-prefix.pch"; sourceTree = "<group>"; };
+		7810E05994A75F0BA163D4233DC16A8B /* libPods-TestSystem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TestSystem.a"; path = "libPods-TestSystem.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3FE6D1534EAC0A3D7A23195F06D989 /* CWSystem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWSystem.m; path = ColorfulWoodSystem/ColorfulWoodSystem/CocoapodFiles/CWSystem.m; sourceTree = "<group>"; };
+		9E7906D82913B6959830404D4E3E2A0A /* CWSystemInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWSystemInfo.h; path = ColorfulWoodSystem/ColorfulWoodSystem/CocoapodFiles/CWSystemInfo.h; sourceTree = "<group>"; };
+		9F3239E5C71050D994C8D225D0C73A34 /* Pods-TestSystem-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestSystem-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B86AC2C241A913B57ED89E9F678FEB11 /* Pods-TestSystem-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestSystem-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF9CA446B4012829D42CEA839F006F97 /* Pods-TestSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestSystem-dummy.m"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E6378558471F8992C4B63CBB961018B8 /* Pods-TestSystem-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestSystem-resources.sh"; sourceTree = "<group>"; };
+		ED86179911E14EC085705394C695DCC2 /* ColorfulWoodSystem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorfulWoodSystem.xcconfig; sourceTree = "<group>"; };
+		F1F86EE7DB83441EA0CD1008A9C7CC6B /* Pods-TestSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSystem.debug.xcconfig"; sourceTree = "<group>"; };
+		F80D62DB19089F22BFBF8C9EBE565B03 /* Pods-TestSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSystem.release.xcconfig"; sourceTree = "<group>"; };
+		FFBF6DEEE046F7540D3F25F8A342E1E5 /* ColorfulWoodSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ColorfulWoodSystem.h; path = ColorfulWoodSystem/ColorfulWoodSystem/CocoapodFiles/ColorfulWoodSystem.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		214AFE9B5C1A3486BA41661317ADAFC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633824E78E972D4E1C3E78EAA8615C70 /* Foundation.framework in Frameworks */,
+				6531EF6F09B9C1CA7F408042755F3E68 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF142128471F445E9DD38AFD0D61F3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7785C3B9B1CB546EE582018F7C6E4530 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0645D38CBAF29B8ED72CB4AD08020734 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED86179911E14EC085705394C695DCC2 /* ColorfulWoodSystem.xcconfig */,
+				064261936BE2C437A032D20F4BF1FF68 /* ColorfulWoodSystem-dummy.m */,
+				5C0D60FA4362449A09B4EE0B16B8D11B /* ColorfulWoodSystem-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ColorfulWoodSystem";
+			sourceTree = "<group>";
+		};
+		16D4C76A7D8941BD6AC16F190AC72344 /* Pods-TestSystem */ = {
+			isa = PBXGroup;
+			children = (
+				9F3239E5C71050D994C8D225D0C73A34 /* Pods-TestSystem-acknowledgements.markdown */,
+				B86AC2C241A913B57ED89E9F678FEB11 /* Pods-TestSystem-acknowledgements.plist */,
+				CF9CA446B4012829D42CEA839F006F97 /* Pods-TestSystem-dummy.m */,
+				121EB04AF100984332B3BF152D1D3280 /* Pods-TestSystem-frameworks.sh */,
+				E6378558471F8992C4B63CBB961018B8 /* Pods-TestSystem-resources.sh */,
+				F1F86EE7DB83441EA0CD1008A9C7CC6B /* Pods-TestSystem.debug.xcconfig */,
+				F80D62DB19089F22BFBF8C9EBE565B03 /* Pods-TestSystem.release.xcconfig */,
+			);
+			name = "Pods-TestSystem";
+			path = "Target Support Files/Pods-TestSystem";
+			sourceTree = "<group>";
+		};
+		258C3DD50E809F870135CAC9A4DB6098 /* ColorfulWoodSystem */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF6DEEE046F7540D3F25F8A342E1E5 /* ColorfulWoodSystem.h */,
+				2DD86ED9A858289B17DF97F8428ADA09 /* CWSystem.h */,
+				9E3FE6D1534EAC0A3D7A23195F06D989 /* CWSystem.m */,
+				9E7906D82913B6959830404D4E3E2A0A /* CWSystemInfo.h */,
+				1BD16BFB1B31F05614725F71751AA40C /* CWSystemInfo.m */,
+				0645D38CBAF29B8ED72CB4AD08020734 /* Support Files */,
+			);
+			name = ColorfulWoodSystem;
+			path = ColorfulWoodSystem;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				C5AA765E3880C7C6AF9BAC2F86E9887A /* Pods */,
+				B5EACC4674D1BB8016EE2990BD038437 /* Products */,
+				E988FDDBBAF4249522F0E7316C4A08B4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B5EACC4674D1BB8016EE2990BD038437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				197633F2C71D62394F7F0DA26AD8E786 /* libColorfulWoodSystem.a */,
+				7810E05994A75F0BA163D4233DC16A8B /* libPods-TestSystem.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5AA765E3880C7C6AF9BAC2F86E9887A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				258C3DD50E809F870135CAC9A4DB6098 /* ColorfulWoodSystem */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E988FDDBBAF4249522F0E7316C4A08B4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16D4C76A7D8941BD6AC16F190AC72344 /* Pods-TestSystem */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F0EEFA7CD32F2861DDD271C2BCA1615F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFDF59A44633FBF830A0F3856D657B1 /* ColorfulWoodSystem.h in Headers */,
+				71BD50F9E2D2E1BB1C50D07FD320B30A /* CWSystem.h in Headers */,
+				41A8D647FF310822DC06CD8BD2BA4384 /* CWSystemInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14D134B061F9C409BCBE7585621F2E3B /* ColorfulWoodSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB662FA8FD168F7F3CE08F02B7E7C5A7 /* Build configuration list for PBXNativeTarget "ColorfulWoodSystem" */;
+			buildPhases = (
+				E348947C20B7746AC0B832A6C89A583C /* Sources */,
+				214AFE9B5C1A3486BA41661317ADAFC4 /* Frameworks */,
+				F0EEFA7CD32F2861DDD271C2BCA1615F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorfulWoodSystem;
+			productName = ColorfulWoodSystem;
+			productReference = 197633F2C71D62394F7F0DA26AD8E786 /* libColorfulWoodSystem.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EBF691C3D867060BD06F5BCCFDB76CB4 /* Pods-TestSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618CE3D22ED6784C25A5908AFE9B80F6 /* Build configuration list for PBXNativeTarget "Pods-TestSystem" */;
+			buildPhases = (
+				DD0E968DE8DE1C63D607D9548D930278 /* Sources */,
+				FF142128471F445E9DD38AFD0D61F3DD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0732471B179282A2372B1EDB3E583A8C /* PBXTargetDependency */,
+			);
+			name = "Pods-TestSystem";
+			productName = "Pods-TestSystem";
+			productReference = 7810E05994A75F0BA163D4233DC16A8B /* libPods-TestSystem.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B5EACC4674D1BB8016EE2990BD038437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14D134B061F9C409BCBE7585621F2E3B /* ColorfulWoodSystem */,
+				EBF691C3D867060BD06F5BCCFDB76CB4 /* Pods-TestSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD0E968DE8DE1C63D607D9548D930278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AED99A3B61C2A446351FB8436B9D64A /* Pods-TestSystem-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E348947C20B7746AC0B832A6C89A583C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CBA28851DD878FCE9D74C31FD8C2C2 /* ColorfulWoodSystem-dummy.m in Sources */,
+				57514A850FA215101D1ECF3B4809A294 /* CWSystem.m in Sources */,
+				F160841FE3AA2A16EC401733EB003E8A /* CWSystemInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0732471B179282A2372B1EDB3E583A8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ColorfulWoodSystem;
+			target = 14D134B061F9C409BCBE7585621F2E3B /* ColorfulWoodSystem */;
+			targetProxy = F6E16343A825A8625E35A82947D3D2E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0537C1E58032334CF7426832C7433FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F86EE7DB83441EA0CD1008A9C7CC6B /* Pods-TestSystem.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60FB92955BB09EB5CC81923070DFB307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7E303F336AF1EDCE08CCD98DE0D3DD37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7EBB9A64397536468478B7F0F99BECF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED86179911E14EC085705394C695DCC2 /* ColorfulWoodSystem.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ColorfulWoodSystem/ColorfulWoodSystem-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ColorfulWoodSystem;
+				PRODUCT_NAME = ColorfulWoodSystem;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB2847EDA38D6BB8FFD7FAC1B9E5E487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F80D62DB19089F22BFBF8C9EBE565B03 /* Pods-TestSystem.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7424A6D9402448B9F66AC9EECCF3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED86179911E14EC085705394C695DCC2 /* ColorfulWoodSystem.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ColorfulWoodSystem/ColorfulWoodSystem-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ColorfulWoodSystem;
+				PRODUCT_NAME = ColorfulWoodSystem;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E303F336AF1EDCE08CCD98DE0D3DD37 /* Debug */,
+				60FB92955BB09EB5CC81923070DFB307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618CE3D22ED6784C25A5908AFE9B80F6 /* Build configuration list for PBXNativeTarget "Pods-TestSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0537C1E58032334CF7426832C7433FA3 /* Debug */,
+				EB2847EDA38D6BB8FFD7FAC1B9E5E487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB662FA8FD168F7F3CE08F02B7E7C5A7 /* Build configuration list for PBXNativeTarget "ColorfulWoodSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBB9A64397536468478B7F0F99BECF8 /* Debug */,
+				ED7424A6D9402448B9F66AC9EECCF3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "ColorfulWoodSystem"
-s.version      = "0.0.0.4"
+s.version      = "1.0.0"
 s.summary      = "获取设备信息"
 
 s.homepage     = "https://github.com/gs01md"
