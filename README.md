@@ -1,5 +1,5 @@
 # ColorfulWoodSystem
-获取iPhone设备型号、系统版本等
+获取iPhone设备型号、系统版本、设备名称、app版本、UUID等
 
 使用cocoapod进行下载：pod 'ColorfulWoodSystem'
 
@@ -10,6 +10,8 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+
+
     [super viewDidLoad];
 
     CWSystemInfo * info = [CWSystem interface_systemInfo];
@@ -20,6 +22,8 @@
           info.m_iphoneType,
           info.m_iphoneName,
           info.m_appVersion);
+          
 }
+
 
 @end
