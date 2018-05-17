@@ -83,20 +83,12 @@
 			isa = PBXGroup;
 			children = (
 				8B6110FA20AD122D00D55C3A /* ColorfulWoodSystem.h */,
-				8B6110F920AD11FC00D55C3A /* Foundation */,
-			);
-			path = CocoapodFiles;
-			sourceTree = "<group>";
-		};
-		8B6110F920AD11FC00D55C3A /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
 				8B6110FB20AD126000D55C3A /* CWSystem.h */,
 				8B6110FC20AD126000D55C3A /* CWSystem.m */,
 				8B6110FE20AD175100D55C3A /* CWSystemInfo.h */,
 				8B6110FF20AD175100D55C3A /* CWSystemInfo.m */,
 			);
-			path = Foundation;
+			path = CocoapodFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
