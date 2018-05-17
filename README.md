@@ -1,5 +1,5 @@
 # ColorfulWoodSystem
-获取iPhone设备型号、系统版本、设备名称、app版本、UUID等
+获取iPhone设备型号、系统版本、设备名称、app版本、UUID等，支持cocoapod
 
 使用cocoapod进行下载：pod 'ColorfulWoodSystem'
 
