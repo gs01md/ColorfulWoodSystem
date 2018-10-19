@@ -1,5 +1,5 @@
 PODS:
-  - ColorfulWoodSystem (0.0.0.4)
+  - ColorfulWoodSystem (1.0.0)
 
 DEPENDENCIES:
   - ColorfulWoodSystem
@@ -9,7 +9,7 @@ SPEC REPOS:
     - ColorfulWoodSystem
 
 SPEC CHECKSUMS:
-  ColorfulWoodSystem: 76aea826d06ce213a19e95ea747868449aa915c5
+  ColorfulWoodSystem: 013237e4352eebb043f964eb106f064d56ba74a6
 
 PODFILE CHECKSUM: c6cfac23e02e234add6a3568ca80468faa4bd912
 

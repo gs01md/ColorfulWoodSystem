@@ -266,6 +266,67 @@
     return [[UIDevice currentDevice] name];
 }
 
+/**
+ * 判断是否AppStore的版本比较新: YES AppStore版本比较新
+ */
++ (BOOL)interface_checkAppId:(NSString*)appId version:(NSString*)version{
 
+    if (!appId || !version) {
+        return NO;
+    }
+
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://itunes.apple.com/lookup?id=%@",appId]];
+    NSData *data = [NSData dataWithContentsOfURL:url];
+    if (!data) {
+        return NO;
+    }
+    NSDictionary *responseObject = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
+    NSArray *appInfos = responseObject[@"results"];
+    if (!appInfos || appInfos.count <= 0) {
+        return NO;
+    }
+    NSDictionary *appInfo = appInfos[0];
+
+    if (!appInfo) {
+        return NO;
+    }
+
+    NSString * verStore = appInfo[@"version"];
+
+    if (!verStore) {
+        return NO;
+    }
+
+    NSArray<NSString *> * arrayLocal = [version componentsSeparatedByString:@"."];
+    NSArray<NSString *> * arrayNet = [verStore componentsSeparatedByString:@"."];
+
+    if (arrayLocal && arrayNet && arrayLocal.count == 3 && arrayNet.count==3) {
+
+        //第一个版本号
+        if ([arrayNet[0] intValue] > [arrayLocal[0] intValue]) {
+            return YES;
+        }else{
+
+            //如果第一个版本号相同，比较第二个
+            if ([arrayNet[0] intValue] == [arrayLocal[0] intValue]) {
+
+                if ([arrayNet[1] intValue] > [arrayLocal[1] intValue]) {
+                    return YES;
+                }else{
+
+                    if ([arrayNet[1] intValue] == [arrayLocal[1] intValue]) {
+
+                        if ([arrayNet[2] intValue] > [arrayLocal[2] intValue]){
+                            return YES;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    return NO;
+}
 
 @end

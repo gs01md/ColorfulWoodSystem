@@ -42,4 +42,9 @@
  * 获取设备名称
  */
 + (NSString*)interface_iphoneName;
+
+/**
+ * 判断是否AppStore的版本比较新: YES AppStore版本比较新
+ */
++ (BOOL)interface_checkAppId:(NSString*)appId version:(NSString*)version;
 @end
